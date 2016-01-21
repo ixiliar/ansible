@@ -1,5 +1,5 @@
 ---
-- hosts: lmad01rtvesujwk1
+- hosts: all
   user: operacion
   sudo: yes
   tasks:

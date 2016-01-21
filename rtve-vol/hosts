@@ -1,11 +1,3 @@
-[lmad01rtvesujwk1]
-10.50.105.150
-
-[lmad01rtvewp1]
-10.50.79.11
-
-[nodos:children]
+[nodos]
 lmad01rtvesujwk1
-
-[nodos2:children]
-lmad01rtvesujwk1
+lmad01rtvecntet1
