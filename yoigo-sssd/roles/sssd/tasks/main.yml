@@ -45,6 +45,9 @@
 - name: Configuramos sshd en pam.d
   template: src=sshd.j2 dest=/etc/pam.d/sshd  owner=root group=root mode=0644
 
+- name: Configuramos sudo-ldap
+  template: src=sudo-ldap.j2 dest=/etc/sudo-ldap.conf  owner=root group=root mode=0400
+
 - name: Reiniciamos el servicio autohome
   service: name=oddjobd enabled=yes state=restarted
 
