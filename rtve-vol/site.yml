@@ -1,13 +1,11 @@
 ---
-- hosts: localhost 
-  user: root
+- hosts: lmad01rtvesujwk1
+  user: operacion
+  sudo: yes
   tasks:
-  #- lineinfile: backrefsdddest=/etc/fstab regexp="^netapp2:/vol/multimedia.*/data/nfs/multimedia.*nfs .*$" insertafter="^netapp2:/vol/multimedia.*/data/nfs/multimedia.*nfs .*$"  line="netapp2:/vol/multimedia2     /data/nfs/multimedia2 nfs     rw,nfsvers=3,tcp,bg,hard,intr,timeo=300,rsize=32768,wsize=32768,noatime,actimeo=0 0       0" state=present
-
-    - command: egrep /data/nfs/multimedia /etc/fstab
+    - command: egrep "^netapp2:/vol/multimedia " /etc/fstab
       register: result
       ignore_errors: True
 
-    - lineinfile: dest=/etc/fstab line="netapp2:/vol/multimedia2     /data/nfs/multimedia2 nfs     rw,nfsvers=3,tcp,bg,hard,intr,timeo=300,rsize=32768,wsize=32768,noatime,actimeo=0 0       0" state=present 
+    - mount: name=/data/nfs/multimedia2 fstype=nfs src=netapp2:/vol/multimedia2 opts='rw,nfsvers=3,tcp,bg,hard,intr,timeo=300,rsize=32768,wsize=32768,noatime,actimeo=0' state=mounted
       when: result|success
-  
