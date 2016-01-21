@@ -1,0 +1,2 @@
+[una]
+smadavpvass.yoigo.mnt
