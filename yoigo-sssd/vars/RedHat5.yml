@@ -1,0 +1,8 @@
+---
+sssd_package_name: sssd
+sssd_service_name: sssd
+oddjob_package_name: oddjob
+services: nss, pam
+ldap_access_order: expire
+ldap_user_search_base: OU=TGS-USERS,DC=tgs,DC=local
+ldap_group_search_base: OU=TGS-USERS,dc=tgs,dc=local

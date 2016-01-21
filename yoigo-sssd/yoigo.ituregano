@@ -1,0 +1,1033 @@
+10.50.84.26 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.159 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.196 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.197 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.71 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.72 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.198 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.78 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.145.44 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.100 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.72 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.44 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.73 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.61 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.79 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.85 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.121 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.70 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.190 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.98 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.82 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.157 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.222 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.88 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.62 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.88 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.111 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.26 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.144.22 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.144.24 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.208 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+172.30.124.9 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+172.30.124.7 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.84.83 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.12 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.186 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.33 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.69 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.3 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.126 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.197 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.13 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.178 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.247 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.202 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.94.143 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.145.64 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.112 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.205 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.145.65 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.170 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.172 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.80 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.19 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.210 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.96 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.94 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.149 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.127 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.234 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.101 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.145.93 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.233 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.248 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.184 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.45 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.145.40 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.132 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.67 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.211 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.201 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.24 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.58 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.23 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.55 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.94.148 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.81 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.145.78 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.173 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.10 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.94.90 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.140 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.110 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.98 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.29 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.28 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.67 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.66 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.58 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.193 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.28 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.226 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.145.42 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.27 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.113 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.176 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.30 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.76 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.145.41 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.226 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.160 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.50 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.34 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.200 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.187 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.38 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.192 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.117 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.85 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.144.136 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.116 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.0 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.250 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.53 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.216 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.70 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.207 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.94 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.125 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.144.65 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.144.138 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.254 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.84.110 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.115 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.119 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.114 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+172.30.124.8 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.144.46 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.83 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.124 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.84.120 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.253 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.228 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.253 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.69 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.146 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.146 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.144.144 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.126 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.94.68 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.59 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.131 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.206 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.130 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.208 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.0.0.01 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.145.66 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.255 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.29 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.144.82 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.86 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.251 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.84 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.145.74 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.30 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.94.30 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.195 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.145 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.152 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.160 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.209 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+172.30.124.6 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.145.19 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.145.22 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.200 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.110 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.17 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.112 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.36 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.94.46 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.224 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.72 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.22 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.32 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.113 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.69 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.41 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.204 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.144.221 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.71 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.151 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.142 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.77 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.144 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.67 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.94.225 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.66 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.40 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.150 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.124 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.71 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.129 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.23 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.13 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.199 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.25 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.4 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.224 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.114 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.145.79 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.31 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.227 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.43 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.145.52 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.51 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.77 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.24 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.29 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.15 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.63 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.138 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.194 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.191 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.84.21 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.139 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.237 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.106 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.75 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.84.107 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.14 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.171.11 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.84.210 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.120 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.20 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.94.81 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.83 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! Authentication failure.", 
+    "unreachable": true
+}
+10.50.144.203 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH encountered an unknown error during the connection. We recommend you re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the issue", 
+    "unreachable": true
+}
+10.50.84.18 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.14 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.57 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.15 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.145.63 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.99 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.20 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.13 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.144.12 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.84.94 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+10.50.94.95 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}

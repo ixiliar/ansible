@@ -1,0 +1,81 @@
+[domain/default]
+debug_level = 4
+autofs_provider = ldap
+ldap_schema = rfc2307bis
+#krb5_realm = #
+ldap_search_base = dc=yoigo,dc=inet
+id_provider = ldap
+auth_provider = ldap
+chpass_provider = ldap
+ldap_uri = ldaps://vclldap1.yoigo.inet:1636, ldaps://vclldap2.yoigo.inet:1636
+cache_credentials = True
+ldap_tls_cacertdir = /etc/sssd/certs
+#ldap_tls_cacert = /etc/openldap/certs/yoigo.crt
+ldap_referrals = false
+ldap_user_search_base = ou=People,dc=yoigo,dc=inet
+ldap_user_object_class = person
+ldap_user_home_directory = HomeDirectory
+ldap_user_principal = sn
+ldap_user_shell = loginShell
+ldap_group_search_base = dc=yoigo,dc=inet
+ldap_group_object_class = Group
+access_provider = ldap
+ldap_access_order={{ ldap_access_order }}
+#ldap_access_order = expire
+ldap_account_expire_policy = shadow
+ldap_pwd_policy = shadow
+
+[domain/tgs.local]
+debug_level = 4
+id_provider = ldap
+
+ldap_uri = ldaps://tgs-w2pad1.tgs.local,ldaps://tgs-w2pad2.tgs.local
+ldap_schema = rfc2307bis
+ldap_referrals = false
+ldap_default_bind_dn = cn=Ldap,cn=Users,dc=tgs,dc=local
+ldap_default_authtok_type = password
+ldap_default_authtok = d50_*spg
+
+#ldap_user_search_base = dc=tgs,dc=local
+ldap_user_search_base = {{ ldap_user_search_base }}
+
+ldap_user_object_class = user
+ldap_user_home_directory = unixHomeDirectory
+ldap_user_principal = userPrincipalName
+ldap_user_shell = loginShell
+
+#ldap_group_search_base = dc=tgs,dc=local
+ldap_group_search_base = {{ ldap_group_search_base }}
+ldap_group_object_class = group
+
+access_provider = ldap
+ldap_access_order = expire
+ldap_account_expire_policy = ad
+
+ldap_tls_cacert = /etc/sssd/certs/cert_ca.pem
+sudo_provider = ldap
+ldap_sudo_search_base = OU=Sudos,OU=C8Unix,OU=TGS-USERS,DC=tgs,DC=local
+#ldap_id_mapping = False
+
+[sssd]
+services = {{ services }}
+config_file_version = 2
+
+domains = tgs.local, default
+[nss]
+homedir_substring = /home
+
+[pam]
+pam_pwd_expiration_warning = 7
+
+[sudo]
+
+[autofs]
+
+[ssh]
+
+[pac]
+
+[ifp]
+
+

@@ -1,0 +1,5 @@
+---
+# Handler for openldap
+
+- name: restart openldap
+  service: name=slapd state=restarted

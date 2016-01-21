@@ -1,0 +1,6 @@
+---
+- hosts: una
+  user: root
+  roles:
+    - common
+    - sssd

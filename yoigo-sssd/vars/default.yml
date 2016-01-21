@@ -1,0 +1,8 @@
+---
+sssd_package_name: sssd
+sssd_service_name: sssd
+oddjob_package_name: oddjob-mkhomedir
+services: nss, sudo, pam, ssh, autofs
+ldap_access_order: host
+ldap_user_search_base: OU=Users,OU=C2Oracle,OU=TGS-USERS,DC=tgs,DC=local???OU=Users,OU=C3Wintel,OU=TGS-USERS,DC=tgs,DC=local???OU=Users,OU=C7Applications,OU=TGS-USERS,DC=tgs,DC=local???OU=Users,OU=C8Unix,OU=TGS-USERS,DC=tgs,DC=local???OU=Users,OU=C11Monitorizacion,OU=TGS-USERS,DC=tgs,DC=local???OU=Gsoc_OracleUnix,OU=Users,OU=C4CSI,OU=TGSUSERS,DC=tgs,DC=local???OU=Users,OU=yoigo,OU=Enterprise,OU=TGS-EXTERNAL,DC=tgs,DC=local??
+ldap_group_search_base: OU=Groups,OU=C2Oracle,OU=TGS-USERS,dc=tgs,dc=local???OU=Groups,OU=C3Wintel,OU=TGS-USERS,dc=tgs,dc=local???OU=Groups,OU=C7Applications,OU=TGS-USERS,dc=tgs,dc=local???OU=Groups,OU=C8Unix,OU=TGS-USERS,dc=tgs,dc=local???OU=Groups,OU=C11Monitorizacion,OU=TGS-USERS,dc=tgs,dc=local???OU=Groups,OU=yoigo,OU=Enterprise,OU=TGS-EXTERNAL,DC=tgs,DC=local??
