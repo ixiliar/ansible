@@ -24,6 +24,9 @@
 - name: comprobamos que se pueda resolver la ip del segundo ldap
   lineinfile: dest=/etc/hosts regexp='172.30.112.55.*vclldap2.yoigo.inet$' line="172.30.112.55	vclldap2.yoigo.inet" state=present
 
+- name: comprobamos que se pueda resolver la ip del rhome
+  lineinfile: dest=/etc/hosts regexp='10.50.1.83.*puppet.tgs.local.*puppet$' line="10.50.1.83	puppet.tgs.local puppet" state=present
+
 - name: Paramos el agente de puppet 
   service: name=puppet enabled=no state=stopped
   ignore_errors: yes
