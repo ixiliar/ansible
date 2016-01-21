@@ -1,0 +1,13 @@
+---
+- hosts: localhost 
+  user: root
+  tasks:
+  #- lineinfile: backrefsdddest=/etc/fstab regexp="^netapp2:/vol/multimedia.*/data/nfs/multimedia.*nfs .*$" insertafter="^netapp2:/vol/multimedia.*/data/nfs/multimedia.*nfs .*$"  line="netapp2:/vol/multimedia2     /data/nfs/multimedia2 nfs     rw,nfsvers=3,tcp,bg,hard,intr,timeo=300,rsize=32768,wsize=32768,noatime,actimeo=0 0       0" state=present
+
+    - command: egrep /data/nfs/multimedia /etc/fstab
+      register: result
+      ignore_errors: True
+
+    - lineinfile: dest=/etc/fstab line="netapp2:/vol/multimedia2     /data/nfs/multimedia2 nfs     rw,nfsvers=3,tcp,bg,hard,intr,timeo=300,rsize=32768,wsize=32768,noatime,actimeo=0 0       0" state=present 
+      when: result|success
+  
