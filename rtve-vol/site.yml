@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: su
   user: operacion
   sudo: yes
   tasks:
