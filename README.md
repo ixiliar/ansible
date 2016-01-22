@@ -21,3 +21,22 @@ sudo pip install ansible
  ```
 
 [Docu Ansible](http://docs.ansible.com/ansible/modules_by_category.html)
+
+# GIT
+Tutorial https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+#### **clonar este repo**
+```
+ git clone git@github.com:Turegano/ansible.git
+ 
+ ```
+ #### **cambiar a rama master**
+```
+ git checkout master
+ 
+ ```
+  #### **volver a rama develop**
+```
+ git checkout develop
+ 
+ ```
+
