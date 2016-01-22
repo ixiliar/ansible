@@ -43,4 +43,15 @@ sudo pip install ansible
  git checkout develop
  
  ```
+ 
+ #### **Aplicar cambios de una rama en el master**
+```
+ git checkout master
+ git pull origin master
+ git merge develop
+ git push origin master
+ git checkout develop
+ git status
+ 
+ ```
 
