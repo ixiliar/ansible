@@ -1,4 +1,2 @@
-# ansible
-# pedro
-# nacho
-# nacho
+# Instalación de Ansible
+sudo pip install ansible
