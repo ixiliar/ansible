@@ -44,7 +44,7 @@ sudo pip install ansible
  
  ```
  
- #### **Aplicar cambios de una rama en el master**
+#### **Aplicar cambios de una rama en el master**
 ```
  git checkout master
  git pull origin master
