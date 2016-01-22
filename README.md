@@ -19,3 +19,5 @@ sudo pip install ansible
 ```
  ansible-playbook -i hosts site.yml -k -K
  ```
+
+[Docu Ansible](http://docs.ansible.com/ansible/modules_by_category.html)
