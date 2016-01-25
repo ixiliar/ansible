@@ -1,0 +1,12 @@
+---
+
+package_manager: apt
+package_local_install: dpkg -i
+package_local_search: dpkg -l | grep -i ob2-
+dp9_core: ob2-core_0A.09.00-2_amd64.deb
+dp9_ma: ob2-ma_0A.09.00-2_amd64.deb
+dp9_da: ob2-da_0A.09.00-2_amd64.deb
+dp9_core_r: ob2-core
+dp9_da_r: ob2-da
+dp9_ma_r: ob2-ma
+

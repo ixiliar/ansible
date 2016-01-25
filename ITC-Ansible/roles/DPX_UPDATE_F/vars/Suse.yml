@@ -1,0 +1,12 @@
+---
+
+package_manager: rpm
+package_local_install: rpm -i
+# Obtenemos el nombre del paquete para desisntalar
+package_local_search: zypper search -i | grep OB2 | awk '{print $3}'
+dp9_core: OB2-CORE-A.09.00-1.x86_64.rpm
+dp9_ma: OB2-MA-A.09.00-1.x86_64.rpm
+dp9_da: OB2-DA-A.09.00-1.x86_64.rpm
+dp9_core_r: OB2-CORE
+dp9_da_r: OB2-DA
+dp9_ma_r: OB2-MA

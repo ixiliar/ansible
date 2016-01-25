@@ -1,0 +1,33 @@
+---
+- name: Register cell manager
+  command: cat /etc/opt/omni/client/cell_server
+  register: cell_server
+- debug: var=cell_server
+
+- name: Remove all Data Protector Packages
+  package: name={{item}} state=absent
+  with_items: 
+        - OB2-CORE
+        - OB2-DA
+        - OB2-MA
+  register: erase
+  
+- name: Add Data Protector Packages
+  package: name={{item}} state=present
+  with_items: 
+        - OB2-CORE
+        - OB2-DA
+        - OB2-MA
+  when: erase|success      
+  register: install
+        
+- name: Create cell manager file
+  copy: content="{{ cell_server.stdout }}" dest=/etc/opt/omni/client/cell_server
+  when: install|success
+  tags: cell
+        
+        
+- name: Register machine in Data Protector
+  command: /opt/omni/bin/omnicc -update_host {{ ansible_fqdn }}
+  when: install|success
+  

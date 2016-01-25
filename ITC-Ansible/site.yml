@@ -1,0 +1,9 @@
+---
+
+- name: Update Data Protecor Package for rpm and deb system
+  hosts: DPX_UPDATE_F
+  remote_user: root
+
+  
+  roles:
+    - DPX_UPDATE_F
