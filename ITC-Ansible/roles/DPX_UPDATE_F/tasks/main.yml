@@ -24,8 +24,6 @@
   when: pkg_installed|success
   ignore_errors: yes
 
-- debug: var=cell_server_local
-
 # Eliminamos los paquetes de data protector de la maquina si estaban instalados
 - name: Remove all Data Protector Packages
   package: name={{item}} state=absent
