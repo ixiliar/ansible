@@ -16,6 +16,7 @@
 - name: Check if packets exist
   shell: "{{ package_local_search }}"
   register: pkg_installed
+  ignore_errors: yes
   
 # Recuperamos el cell que hay configurado si los paquetes estan instalados y si existe. Si no ignoramos el error   
 - name: Register cell manager
@@ -32,6 +33,7 @@
        - "{{ pkg_installed.stdout_lines }}"
   register: erase
   when: pkg_installed|success
+  ignore_errors: yes
   
 # Añadimos los paquetes de data protector en la version que lo hayamos copiado a la maquina y que hayamos puesto en las variables  
 - name: Add Data Protector Packages
@@ -52,7 +54,7 @@
   when: cell_server_local|failed  
   
 # Registramos la maquina dentro de data protector        
-- name: Register machine in Data Protector
+- name: Register machine in Data Protector not in local
   command: /opt/omni/bin/omnicc -update_host {{ facter_fqdn }}
   when: pkg_installed|success
   
