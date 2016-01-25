@@ -27,15 +27,8 @@
 - name: comprobamos que se pueda resolver la ip del rhome
   lineinfile: dest=/etc/hosts regexp='10.50.1.83.*puppet.tgs.local.*puppet$' line="10.50.1.83	puppet.tgs.local puppet" state=present
 
-- name: Paramos el agente de puppet 
-  service: name=puppet enabled=no state=stopped
-  ignore_errors: yes
-
 - name: Paramos el demonio nscd
   service: name=nscd enabled=no state=stopped
-
-- name: DesInstalamos puppet 
-  package: name=puppet state=absent
 
 - name: Levantamos el servicio autohome
   service: name=oddjobd enabled=yes state=restarted
