@@ -9,7 +9,7 @@
   
 # Copiamos los paquetes a la maquina dependiendo del gestor de paquetes
 - name: Copy packages to system
-  copy: src=/home/sergio.perez/eclipse/workspace/Ansible_test/ansible-examples/ITC-Ansible/roles/DPX_UPDATE_F/files/dp9_{{ package_manager }}/ dest=/var/tmp/DP9_TMP
+  copy: src=dp9_{{ package_manager }}/ dest=/var/tmp/DP9_TMP
   register: copy
  
 # Comprobamos si hay algun paquete de OB2 instalado en la maquina 
