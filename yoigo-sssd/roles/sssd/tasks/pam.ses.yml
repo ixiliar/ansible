@@ -17,3 +17,6 @@
 - name: Recargamos sshd para que tenga en cuenta el nuevo pam.d
   service: name=sshd state=reloaded
 
+- name: Reiniciamos nfs para que monte bien el rhome
+  service: name=nfs state=reloaded
+
