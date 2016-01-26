@@ -1,7 +1,0 @@
----
-- hosts: una
-  user: root
-  roles:
-    - nopuppet
-    - common
-    - sssd

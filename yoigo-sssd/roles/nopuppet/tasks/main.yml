@@ -1,7 +1,0 @@
----
-- name: Paramos el agente de puppet 
-  service: name=puppet enabled=no state=stopped
-  ignore_errors: yes
-
-- name: DesInstalamos puppet 
-  package: name=puppet state=absent
