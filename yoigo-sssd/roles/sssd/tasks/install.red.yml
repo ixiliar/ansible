@@ -1,0 +1,9 @@
+---
+- name: Instalamos sssd
+  package: name={{ sssd_package_name }} state=present
+
+- name: Instalamos autohome
+  package: name={{ oddjob_package_name }} state=present
+
+- name: Levantamos el servicio autohome
+  service: name=oddjobd enabled=yes state=restarted

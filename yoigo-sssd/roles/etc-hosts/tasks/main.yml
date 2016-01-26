@@ -1,0 +1,16 @@
+---
+- name: comprobamos que se pueda resolver la ip del AD1 de itconic
+  lineinfile: dest=/etc/hosts regexp='10.50.1.68.*tgs-w2pad1.tgs.local$' line="10.50.1.68	tgs-w2pad1.tgs.local" state=present
+
+- name: comprobamos que se pueda resolver la ip del AD2 de itconic
+  lineinfile: dest=/etc/hosts regexp='10.50.1.69.*tgs-w2pad2.tgs.local$' line="10.50.1.69	tgs-w2pad2.tgs.local" state=present
+
+- name: comprobamos que se pueda resolver la ip del pimer ldap
+  lineinfile: dest=/etc/hosts regexp='172.30.112.54.*vclldap1.yoigo.inet$' line="172.30.112.54	vclldap1.yoigo.inet" state=present
+
+- name: comprobamos que se pueda resolver la ip del segundo ldap
+  lineinfile: dest=/etc/hosts regexp='172.30.112.55.*vclldap2.yoigo.inet$' line="172.30.112.55	vclldap2.yoigo.inet" state=present
+
+- name: comprobamos que se pueda resolver la ip del rhome
+  lineinfile: dest=/etc/hosts regexp='10.50.1.83.*puppet.tgs.local.*puppet$' line="10.50.1.83   puppet.tgs.local puppet" state=present
+

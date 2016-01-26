@@ -1,0 +1,5 @@
+---
+- name: Nos aseguramos que messagebus se encuentra levantado
+  service: name=messagebus enabled=yes state=restarted
+  when: ansible_os_family == 'RedHat'
+

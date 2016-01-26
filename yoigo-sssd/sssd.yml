@@ -1,0 +1,11 @@
+---
+- hosts: dos
+  user: root
+  roles:
+    - no-puppet
+    - no-nscd
+    - etc-hosts
+    - messagebus
+    - sssd
+  vars:
+    sssd_enabled: yes
