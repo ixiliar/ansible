@@ -1,5 +1,5 @@
 ---
-- hosts: dos
+- hosts: una
   user: root
   roles:
     - no-puppet

@@ -1,3 +1,4 @@
 ---
 - name: Paramos el demonio nscd
   service: name=nscd enabled=no state=stopped
+  ignore_errors: yes

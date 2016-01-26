@@ -1,0 +1,9 @@
+---
+- name: Instalamos sssd
+  package: name=sssd state=present
+
+- name: Instalamos sssd-32bit
+  package: name=sssd-32bit state=present
+
+- name: Copiamos la utilidad cacertdir_rehash
+  copy: src=cacertdir_rehash dest=/usr/sbin/cacertdir_rehash owner=root group=root mode=744
