@@ -55,7 +55,7 @@
   
 # Registramos la maquina dentro de data protector        
 - name: Register machine in Data Protector not in local
-  command: /opt/omni/bin/omnicc -update_host {{ facter_fqdn }}
+  command: /opt/omni/bin/omnicc -update_host {{ ansible_fqdn }}
   when: pkg_installed|success
   
 # Borramos los datos copiados  

@@ -42,11 +42,17 @@
 - name: Configuramos password-auth en pam.d
   template: src=password-auth.j2 dest=/etc/pam.d/password-auth  owner=root group=root mode=0644
 
+#- name: Configuramos sshd en pam.d
+#  template: src=sshd.j2 dest=/etc/pam.d/sshd  owner=root group=root mode=0644
+
 - name: Configuramos sshd en pam.d
-  template: src=sshd.j2 dest=/etc/pam.d/sshd  owner=root group=root mode=0644
+  copy: src=sshd.{{ ansible_os_family }}{{ ansible_distribution_major_version }} dest=/etc/pam.d/sshd  owner=root group=root mode=0644
 
 - name: Configuramos sudo-ldap
   template: src=sudo-ldap.conf.j2 dest=/etc/sudo-ldap.conf  owner=root group=root mode=0400
+
+- name: configuramos ldap para los RHEL5
+  copy: src=ldap.conf dest=/etc/ldap.conf
 
 - name: Reiniciamos el servicio autohome
   service: name=oddjobd enabled=yes state=restarted
