@@ -17,8 +17,9 @@ ldap_user_object_class = person
 ldap_user_home_directory = HomeDirectory
 ldap_user_principal = sn
 ldap_user_shell = loginShell
-ldap_group_search_base = dc=yoigo,dc=inet
-ldap_group_object_class = Group
+ldap_group_search_base = ou=Group,dc=yoigo,dc=inet
+ldap_group_member = member
+#ldap_group_object_class = Group
 access_provider = ldap
 ldap_access_order={{ ldap_access_order }}
 #ldap_access_order = expire
