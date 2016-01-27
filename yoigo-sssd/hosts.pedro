@@ -4,10 +4,6 @@ smadavebm
 smadavmsg
 smadavmykoala1
 smadavmykoala2
-
-[vlan6]
-vclldap1
-vclldap2
 smadavpfenix
 smadavpwc
 smadvalnetplus
@@ -63,6 +59,10 @@ smadvalifsd
 smadavnetplus1
 smadavnetplus2
 smadavjira
+
+[vlan6]
+vclldap1
+vclldap2
 
 [yoigo]
 smadavmytest1
