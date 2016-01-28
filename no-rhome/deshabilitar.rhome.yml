@@ -1,0 +1,9 @@
+---
+- hosts:  nodos
+  user: root
+  become: no
+  become_method: sudo
+  tasks:
+    - copy: src=auto.master dest=/etc/auto.master
+    - copy: src=auto.rhome dest=/etc/auto.rhome
+    - service: name=autofs state=restarted
