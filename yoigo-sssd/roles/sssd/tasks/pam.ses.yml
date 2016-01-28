@@ -1,15 +1,15 @@
 ---
 - name: Configuramos common-auth en pam.d
-  copy: src=Suse11/common-auth dest=/etc/pam.d/common-auth-pc owner=root group=root mode=0644
+  copy: src=Suse/common-auth dest=/etc/pam.d/common-auth-pc owner=root group=root mode=0644
 
 - name: Configuramos common-password en pam.d
-  copy: src=Suse11/common-password dest=/etc/pam.d/common-password-pc owner=root group=root mode=0644
+  copy: src=Suse/common-password dest=/etc/pam.d/common-password-pc owner=root group=root mode=0644
 
 - name: Configuramos common-account en pam.d
-  copy: src=Suse11/common-account dest=/etc/pam.d/common-account-pc owner=root group=root mode=0644
+  copy: src=Suse/common-account dest=/etc/pam.d/common-account-pc owner=root group=root mode=0644
 
 - name: Configuramos common-session en pam.d
-  copy: src=Suse11/common-session dest=/etc/pam.d/common-session-pc owner=root group=root mode=0644
+  copy: src=Suse/common-session dest=/etc/pam.d/common-session-pc owner=root group=root mode=0644
 
 - name: Configuramos sudo-ldap
   template: src=sudo-ldap.conf.j2 dest=/etc/sudo-ldap.conf  owner=root group=root mode=0400
