@@ -1,0 +1,7 @@
+---
+- hosts:  nodos
+  user: root
+  #become: yes
+  #become_method: sudo
+  tasks:
+    - authorized_key: user=ignacio.turegano key=https://github.com/turegano/ansible/ignacio.turegano.keys
